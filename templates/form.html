@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Formu</title>
+</head>
+<body>
+    <h1>Web Formu</h1>
+    <form method="POST" action="/" enctype="multipart/form-data">
+        <label for="isim">İsim:</label>
+        <input type="text" name="isim" required><br><br>
+        <label for="soyisim">Soyisim:</label>
+        <input type="text" name="soyisim" required><br><br>
+        <label for="telefon">Telefon:</label>
+        <input type="text" name="telefon" required><br><br>
+        <label for="mail">E-posta:</label>
+        <input type="email" name="mail" required><br><br>
+        <label for="pdf">PDF Dökümanı:</label>
+        <input type="file" name="pdf" accept=".pdf" required><br><br>
+        <input type="submit" value="Gönder">
+    </form>
+</body>
+</html>
